@@ -1,6 +1,6 @@
 ### Prerequisites
 
-- Node.js version 14.18+, 16+
+- Node.js version 16+
 - npm 8.15+
 
 ### Run Project

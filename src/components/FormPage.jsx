@@ -5,10 +5,17 @@ import {Context} from '../context/Context'
 
 export default function FormPage() {
     const {register, handleSubmit, formState: {errors}} = useForm();
-    const {occupations, states} = useContext(Context);
+    const {occupations, states, postRequest} = useContext(Context);
 
     function onSubmit(data) {
-        console.log(data)
+        const formattedData = {
+            name: data.firstName + " " + data.lastName,
+            email: data.email,
+            password: data.password,
+            occupation: data.occupation,
+            state: data.state
+        }
+            postRequest(formattedData);
     }
 
     return (

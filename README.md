@@ -15,8 +15,8 @@ npm run dev
 ## Built With
 
 - [React](https://reactjs.org/) - Framework
-- [Vite](https://rometools.github.io/rome/) - Build Tool
-- [Yarn](https://maven.apache.org/) - Dependency Management
+- [Vite](https://vitejs.dev/) - Build Tool
+- [Yarn](https://yarnpkg.com/) - Dependency Management
 
 ## Dependencies Used
 
